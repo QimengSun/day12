@@ -11,6 +11,14 @@ public class Man extends Person{
     public void earnMoney(){
         System.out.println("男人负责挣钱养家");
 
+    }
 
+    @Override
+    public void eat(){
+        System.out.println("Eat! More eat！");
+    }
+
+    public void walk(){
+        System.out.println("Walk! More road");
     }
 }
