@@ -5,7 +5,7 @@ package com.sqm.java4;
  * @date: 2020/8/12 20:13
  * @description:
  */
-public class Woman {
+public class Woman extends Person{
     boolean isBeauty;
 
     public void goShopping(){
